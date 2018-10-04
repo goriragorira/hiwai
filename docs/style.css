@@ -1,0 +1,37 @@
+header {
+    margin: 1px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+#title {
+    background-image: url("http://nshc.nagasaki.jp/image/hotelNagasaki_Top_170810.jpg");
+    background-position: center;
+    margin: 0px;
+    height: 300px;
+    color: yellow;
+}
+
+nagasaki.section {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ2ipqrHCwnMsMQBYN5dKwSgEBTcqkym8qNL0Sr5SP5f4H3wW5yA")
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+
+.header-logo {
+    display: flex;
+}
