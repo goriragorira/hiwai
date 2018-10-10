@@ -31,9 +31,7 @@ li {
     float: left;
     margin: 20px;
 }
-nav{background-color: green;
+
+.header-logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
