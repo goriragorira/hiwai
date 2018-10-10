@@ -1,11 +1,19 @@
+body{
+    margin: 0;
+}
+
 header {
     margin: 1px;
     height: 100px;
     background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #title {
-    background-image: url("http://nshc.nagasaki.jp/image/hotelNagasaki_Top_170810.jpg");
+    background-image: url("img/nagasaki\ night\ view.jpg");
     background-position: center;
     margin: 0px;
     height: 300px;
@@ -17,21 +25,20 @@ nagasaki.section {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
-
-h2 {
-    text-align: center;
-}
-
+h3{background-color: rgb(176, 253, 247);}
 li {
     list-style: none;
     display: flex;
     float: left;
     margin: 20px;
 }
-
-.header-logo {
-    display: flex;
+.header-logo{display: flex;
 }
+nav{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}  
