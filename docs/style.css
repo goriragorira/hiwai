@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: burlywood;
 }
 
 header {
@@ -47,7 +48,9 @@ img{width: 600px;
     height: 400px;
 }
 article{background-color: rgb(247, 193, 230);
-       width: 60%;}
+        width: 70%;
+        padding: 2px}
 .layout{display: flex;
+        display: -webkit-flex;
         }
 #side{width:30%}
